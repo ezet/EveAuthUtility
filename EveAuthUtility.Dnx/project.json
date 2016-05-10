@@ -1,5 +1,5 @@
 ﻿{
-  "version": "1.0.2-rc1",
+  "version": "1.2.1",
   "description": "Simple CLI utility to assist in acquiring and managing Eve Online SSO tokens.",
   "authors": [
     "Lars Kristian Dahl"
