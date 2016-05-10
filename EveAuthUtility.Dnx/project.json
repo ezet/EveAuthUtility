@@ -1,0 +1,37 @@
+﻿{
+  "version": "1.0.2-rc1",
+  "description": "Simple CLI utility to assist in acquiring and managing Eve Online SSO tokens.",
+  "authors": [
+    "Lars Kristian Dahl"
+  ],
+  "tags": [
+    "Eve Online",
+    "EveLib",
+    "EveAuthUtility",
+    "API",
+    "SSO",
+    "EveOnline",
+    "Eve",
+    "Online",
+    "CREST"
+  ],
+  "projectUrl": "https://github.com/ezet/evelib",
+  "licenseUrl": "https://raw.githubusercontent.com/ezet/evelib/master/LICENSE",
+  "compilationOptions": {
+    "emitEntryPoint": true,
+    "warningsAsErrors": true
+  },
+  "dependencies": {
+    "eZet.EveLib.EveAuth": "3.0.1"
+  },
+  "commands": {
+    "EveAuthUtility": "EveAuthUtility"
+  },
+  "frameworks": {
+    "dnx45": {
+      "frameworkAssemblies": {
+        "System.Windows.Forms": "4.0.0.0"
+      }
+    }
+  }
+}
